@@ -1,0 +1,81 @@
+body{
+background-color: black;
+}
+h1{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: bold;
+    }
+    .main{
+        position: relative;
+        margin-bottom:100px;
+        max-width:100%;
+    }
+    .title{
+        position:absolute;
+        top:25%;
+        left:70%;
+        color:red;
+        font-size:70px;
+        font-weight:bolder;
+    }
+    .sub_title{
+        position:absolute;
+        top:40%;
+        left:75%;
+        color:red;
+        font-size:20px;
+        font-weight:bold;
+    }
+    .HACK{
+        position:absolute;
+        top:50%;
+        left:80%;
+        padding:10px 20px;
+        background-color:purple;
+        border-color:yellow;
+        color:white;
+        font-weight: bold;
+        outline:none;
+        cursor:pointer;
+    }
+    p{
+        font-weight:bold;
+        font-size:20px;
+        color:white;
+        padding:20px;
+    }
+    .specilization{
+        text-align:center;
+        position:relative;
+    }
+    .specilization_title {
+        font-weight:bolder;
+        font-size:30px;
+        margin-top:30px;
+        color:white;
+    }
+    .img_spec{
+        border-radius:15px;
+        margin-right:20px;
+        margin-top:50px;
+    }
+    .bike_name{
+        position:absolute;
+        left:10%;
+        top:50%;
+    }
+    .callofduty _name{
+        position:absolute;
+        left:10%;
+        top:50%;
+    }
+    .needforspeed_name{
+        position:absolute;
+        left:10%;
+        top:50%;
+    }
+    h2{
+        font-weight:bold;
+        color: white;
+    }

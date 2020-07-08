@@ -48,7 +48,7 @@ if(count ==1){
     title=  "Designer";
 }
 if (count !=10){
-    $(`title`).text(`I'm a ${title}`);
+    $(`.title`).text(`I'm a ${title}`);
     designer_animation();
 }else if (count ==10){
     count =0;

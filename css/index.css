@@ -57,25 +57,52 @@ h1{
     }
     .img_spec{
         border-radius:15px;
-        margin-right:20px;
+        margin-left:20px;
         margin-top:50px;
     }
     .bike_name{
         position:absolute;
-        left:10%;
-        top:50%;
+        left:21%;
+        top:97%;
     }
-    .callofduty _name{
+    .call_of_duty_name{
         position:absolute;
-        left:10%;
-        top:50%;
+        left:46%;
+        top:97%;
     }
-    .needforspeed_name{
+    .need_for_speed_name{
         position:absolute;
-        left:10%;
-        top:50%;
+        left:71%;
+        top:97%;
     }
     h2{
         font-weight:bold;
         color: white;
+    }
+    .project_img{
+        text-align:center;
+    }
+    .prev{
+        margin-bottom:200px;
+    }
+    .next{
+        margin-bottom:200px;
+    }
+    .actual_img{
+        border-radius:15px;
+    }
+    .project_desc{
+        margin-left:180px;
+    }
+    .project_content{
+        text-align:left;
+        color:white;
+    }
+    .project_name{
+        text-align:left;
+        color:white;
+        margin-left:180px;
+    }
+    .project_title{
+        text-align:center;
     }

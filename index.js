@@ -58,4 +58,28 @@ if (count !=10){
 }
    } ,100);
 }
+
+$(`.project_name`).text("my project");
+$(`.project_content`).text('this is my project design 1');
+var project_count =1;
+$('.next').click(function(){
+    console.log('click');
+   
+    if(project_count ==3){
+        project_count =0;
+        }
+        project_count++;
+        $('.actual_img').attr('src','./img/design_'+project_count+'.jpg')
+        if(project_count ==1){
+            $('.project_name').text("my project");
+            $('.project_content').text('this is my project design')
+        }else if(project_count ==2){
+            $('.project_name').text("my project 2");
+            $('.project_content').text('this is my project design 2')
+        }else if(project_count ==3){
+            $('.project_name').text("my project 3");
+            $('.project_content').text('this is my project design 3')
+        }
+})
+
 })
